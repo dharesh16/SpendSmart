@@ -33,3 +33,33 @@ In today's fast-paced life, most students and working individuals do not keep tr
 6. To filter expenses by month and category
 7. To store all data securely in a MySQL database
 8. To build a responsive web interface using React.js and Bootstrap
+
+## Day 4 - Module List
+
+### Users
+- Register with name, email and password
+- Login with email and password
+- Secure authentication using JWT token
+
+### Expense Management
+- Add new expense with amount, category, date and description
+- View all expenses in a table
+- Delete an expense
+
+### Category Management
+- 4 fixed categories - Food, Travel, Bills, Others
+- Each expense is linked to one category
+
+### Dashboard
+- Show total income
+- Show total expense
+- Show remaining balance
+- Display all recent expenses
+
+### Charts and Analytics
+- Pie chart showing spending by category
+- Bar chart showing monthly expense comparison
+
+### Filter and Search
+- Filter expenses by month
+- Filter expenses by category
