@@ -63,3 +63,26 @@ In today's fast-paced life, most students and working individuals do not keep tr
 ### Filter and Search
 - Filter expenses by month
 - Filter expenses by category
+
+## Day 5 - Use Case Diagram
+
+### Actor
+- User (the person using SpendSmart)
+
+### Use Cases
+1. Register
+2. Login
+3. Add Expense
+4. View Expenses
+5. Delete Expense
+6. View Dashboard
+7. View Charts
+8. Filter Expenses
+9. Logout
+
+### Description
+The User is the only actor in SpendSmart.
+After registering and logging in, the user can
+add, view and delete expenses, view the dashboard
+summary, see spending charts and filter expenses
+by category or month.
