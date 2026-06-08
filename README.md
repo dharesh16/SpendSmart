@@ -109,3 +109,21 @@ Stores all expense entries
 - date (DATE) - Date of expense
 - user_id (INT) - Foreign Key linking to USERS
 - category_id (INT) - Foreign Key linking to CATEGORIES
+
+## Day 7 - ER Diagram
+
+### Entities and Relationships
+
+USERS ||--o{ EXPENSES : has
+- One User can have many Expenses
+- Each Expense belongs to only one User
+
+CATEGORIES ||--o{ EXPENSES : contains
+- One Category can have many Expenses
+- Each Expense belongs to only one Category
+
+### Relationships Summary
+- USERS to EXPENSES = One to Many
+- CATEGORIES to EXPENSES = One to Many
+- user_id in EXPENSES links to id in USERS
+- category_id in EXPENSES links to id in CATEGORIES
