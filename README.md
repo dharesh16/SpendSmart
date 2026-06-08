@@ -86,3 +86,26 @@ After registering and logging in, the user can
 add, view and delete expenses, view the dashboard
 summary, see spending charts and filter expenses
 by category or month.
+
+## Day 6 - Table List
+
+### Table 1 - USERS
+Stores all registered users
+- id (INT) - Primary Key
+- name (VARCHAR 100) - Full name
+- email (VARCHAR 100) - Login email
+- password (VARCHAR 255) - Encrypted password
+
+### Table 2 - CATEGORIES
+Stores expense categories
+- id (INT) - Primary Key
+- name (VARCHAR 50) - Food, Travel, Bills, Others
+
+### Table 3 - EXPENSES
+Stores all expense entries
+- id (INT) - Primary Key
+- amount (DECIMAL 10,2) - Expense amount
+- description (VARCHAR 255) - Short note
+- date (DATE) - Date of expense
+- user_id (INT) - Foreign Key linking to USERS
+- category_id (INT) - Foreign Key linking to CATEGORIES
