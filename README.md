@@ -199,3 +199,30 @@ CREATE TABLE expenses (
    - Description input field
    - Add Expense button
    - Cancel button
+
+   ## Day 10 - UI Screens
+
+### Screen 1 - Login Page
+- Dark blue gradient background
+- White centered card
+- SpendSmart logo and tagline
+- Email and password input fields
+- Purple Login button
+- Link to Register page
+
+### Screen 2 - Dashboard Page
+- Dark blue navigation bar
+- 3 summary cards:
+  - Total Income (green)
+  - Total Expense (red)
+  - Remaining Balance (purple)
+- Pie chart - spending by category (Food, Travel, Bills, Others)
+- Bar chart - monthly expense comparison
+- Recent expenses table with category badges and delete button
+- Add Expense button
+
+### Color Theme
+- Primary: #6366f1 (Purple)
+- Success: #10b981 (Green)
+- Danger: #ef4444 (Red)
+- Background: #1a1f36 (Dark Blue)
