@@ -163,3 +163,39 @@ CREATE TABLE expenses (
   FOREIGN KEY (user_id) REFERENCES users(id),
   FOREIGN KEY (category_id) REFERENCES categories(id)
 );
+
+## Day 9 - Wireframes
+
+### Pages Designed
+
+1. Login Page
+   - Email input field
+   - Password input field
+   - Login button
+   - Link to Register page
+
+2. Register Page
+   - Full Name input field
+   - Email input field
+   - Password input field
+   - Confirm Password input field
+   - Register button
+   - Link to Login page
+
+3. Dashboard Page
+   - Navigation bar (SpendSmart, Dashboard, Expenses, Logout)
+   - Total Income card
+   - Total Expense card
+   - Remaining Balance card
+   - Pie Chart - spending by category
+   - Bar Chart - monthly comparison
+   - Recent expenses table
+
+4. Add Expense Page
+   - Navigation bar
+   - Amount input field
+   - Category dropdown (Food, Travel, Bills, Others)
+   - Date input field
+   - Description input field
+   - Add Expense button
+   - Cancel button
