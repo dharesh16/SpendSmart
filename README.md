@@ -226,3 +226,38 @@ CREATE TABLE expenses (
 - Success: #10b981 (Green)
 - Danger: #ef4444 (Red)
 - Background: #1a1f36 (Dark Blue)
+
+## Day 11 - Navigation Bar and Add Expense Form
+
+### Component 1 - Desktop Navigation Bar
+- SpendSmart logo on left
+- Dashboard, Expenses, Add Expense links in center
+- User avatar, welcome name and Logout on right
+- Active page highlighted in white
+
+### Component 2 - Mobile Navigation Bar
+- Hamburger menu on top right
+- Bottom navigation bar with 4 icons
+- Dashboard, Expenses, Add, Logout
+
+### Screen 3 - Add Expense Form
+- Amount field with Rupee symbol
+- Category selection buttons (Food, Travel, Bills, Others)
+- Date picker field
+- Description text area
+- Add Expense and Cancel buttons
+
+### Screen 4 - Register Page
+- Full Name field
+- Email field
+- Password field with strength bar
+- Confirm Password field
+- Create Account button
+- Link to Login page
+
+### Color Theme
+- Primary: #6366f1 (Purple)
+- Success: #10b981 (Green)
+- Warning: #f59e0b (Amber)
+- Danger: #ef4444 (Red)
+- Dark Background: #1a1f36
