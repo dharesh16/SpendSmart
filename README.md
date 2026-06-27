@@ -333,3 +333,17 @@ CREATE TABLE expenses (
   - Navbar matching Dashboard page
 - Connected Add Expense page to App.js routing
 - Tested in browser - working correctly
+
+## Day 18 - Expense List with Filters
+
+- Built Expenses.js with:
+  - Filter dropdown by Category (All, Food, Travel, Bills, Others)
+  - Filter dropdown by Month (auto generated from data)
+  - Live count and total amount based on applied filters
+  - Expenses table with Description, Category, Date, Amount columns
+  - Delete button that removes an expense instantly
+  - Empty state message when no expenses match filter
+  - Navbar matching other pages
+- Connected Expenses page to App.js routing
+- Fixed a JSX closing tag error (Link vs span mismatch)
+- Tested in browser - filters and delete working correctly
