@@ -2,10 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
-
-function AddExpense() {
-  return <h2>Add Expense Page</h2>;
-}
+import AddExpense from './pages/AddExpense';
 
 function App() {
   return (

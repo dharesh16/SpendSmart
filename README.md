@@ -317,3 +317,19 @@ CREATE TABLE expenses (
   - Logout button navigating back to Login page
 - Connected Dashboard page to App.js routing
 - Tested in browser - working correctly with dummy data
+
+## Day 17 - Add Expense Form
+
+- Built AddExpense.js with:
+  - Amount input field (number type)
+  - Date picker field
+  - Category selection badges (Food, Travel, Bills, Others) - clickable with highlight on selection
+  - Description textarea
+  - Form validation:
+    - Checks amount and date are filled
+    - Checks amount is greater than 0
+  - Add Expense button (gradient styling)
+  - Cancel button linking back to Dashboard
+  - Navbar matching Dashboard page
+- Connected Add Expense page to App.js routing
+- Tested in browser - working correctly
