@@ -389,3 +389,19 @@ All 5 pages built and tested:
 - Configured Project JDK (17)
 - Verified project compiles successfully
 - Confirmed Spring Boot requires database configuration (expected - will configure tomorrow)
+
+## Day 21 - Connect Spring Boot to MySQL
+
+- Ran SQL schema in MySQL Workbench:
+  - Created spendsmart database
+  - Created users, categories, expenses tables
+  - Inserted 4 default categories (Food, Travel, Bills, Others)
+- Verified tables using SHOW TABLES command
+- Configured application.properties:
+  - MySQL connection URL, username, password
+  - JPA/Hibernate settings (ddl-auto=update)
+  - Server port set to 8080
+- Ran BackendApplication successfully
+- Verified connection by visiting localhost:8080
+  - Spring Security default login page appeared
+  - Confirms server is running and connected to database correctly
