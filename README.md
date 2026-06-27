@@ -261,3 +261,14 @@ CREATE TABLE expenses (
 - Warning: #f59e0b (Amber)
 - Danger: #ef4444 (Red)
 - Dark Background: #1a1f36
+
+## Day 13 - React Project Setup
+
+- Created React app using create-react-app
+- Installed Bootstrap, React Router, Axios
+- Set up routing for 4 pages:
+  - / (Login)
+  - /register (Register)
+  - /dashboard (Dashboard)
+  - /add-expense (Add Expense)
+- Verified routing works correctly
