@@ -347,3 +347,25 @@ CREATE TABLE expenses (
 - Connected Expenses page to App.js routing
 - Fixed a JSX closing tag error (Link vs span mismatch)
 - Tested in browser - filters and delete working correctly
+
+## Day 19 - Testing and Bug Fixes
+
+- Added Expenses link to Dashboard navbar
+- Added Expenses link to Add Expense page navbar
+- Performed full manual testing across all 5 pages:
+  - Login page validation and navigation
+  - Register page validation and navigation
+  - Dashboard cards and navigation links
+  - Add Expense form validation and category selection
+  - Expenses page filters and delete functionality
+  - Logout functionality
+- All 14 test cases passed successfully
+- No UI bugs found
+
+## Phase 2 Complete - Frontend (React)
+All 5 pages built and tested:
+1. Login Page
+2. Register Page
+3. Dashboard Page
+4. Add Expense Page
+5. Expenses List Page (with filters)

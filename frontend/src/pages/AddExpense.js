@@ -49,8 +49,9 @@ function AddExpense() {
       }}>
         <span style={{ color: 'white', fontSize: '18px', fontWeight: '700' }}>💰 SpendSmart</span>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
-          <Link to="/dashboard" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>Dashboard</Link>
-          <span style={{ color: 'white', fontWeight: '500' }}>Add Expense</span>
+        <Link to="/dashboard" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>Dashboard</Link>
+<Link to="/expenses" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>Expenses</Link>
+<span style={{ color: 'white', fontWeight: '500' }}>Add Expense</span>
           <Link to="/" style={{ color: '#f87171', textDecoration: 'none' }}>Logout</Link>
         </div>
       </div>

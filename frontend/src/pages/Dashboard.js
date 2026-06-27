@@ -39,8 +39,9 @@ function Dashboard() {
       }}>
         <span style={{ color: 'white', fontSize: '18px', fontWeight: '700' }}>💰 SpendSmart</span>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
-          <span style={{ color: 'white', fontWeight: '500' }}>Dashboard</span>
-          <Link to="/add-expense" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>Add Expense</Link>
+         <span style={{ color: 'white', fontWeight: '500' }}>Dashboard</span>
+<Link to="/expenses" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>Expenses</Link>
+<Link to="/add-expense" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>Add Expense</Link>
           <span onClick={handleLogout} style={{ color: '#f87171', cursor: 'pointer' }}>Logout</span>
         </div>
       </div>
