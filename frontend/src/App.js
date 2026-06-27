@@ -1,9 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
-
-function Register() {
-  return <h2>Register Page</h2>;
-}
+import Register from './pages/Register';
 
 function Dashboard() {
   return <h2>Dashboard Page</h2>;

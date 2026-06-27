@@ -285,3 +285,20 @@ CREATE TABLE expenses (
   - Navigates to Dashboard on successful login
 - Connected Login page to App.js routing
 - Tested in browser - working correctly
+
+## Day 15 - Register Page
+
+- Built Register.js with:
+  - Full Name input field
+  - Email input field
+  - Password input field
+  - Confirm Password input field
+  - Form validation:
+    - Checks all fields are filled
+    - Checks passwords match
+    - Checks password is at least 6 characters
+  - Create Account button with gradient styling
+  - Link to Login page
+  - Navigates to Login on successful registration
+- Connected Register page to App.js routing
+- Tested in browser - working correctly
