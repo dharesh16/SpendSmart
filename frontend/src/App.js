@@ -1,10 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
 import Register from './pages/Register';
-
-function Dashboard() {
-  return <h2>Dashboard Page</h2>;
-}
+import Dashboard from './pages/Dashboard';
 
 function AddExpense() {
   return <h2>Add Expense Page</h2>;

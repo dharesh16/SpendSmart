@@ -302,3 +302,18 @@ CREATE TABLE expenses (
   - Navigates to Login on successful registration
 - Connected Register page to App.js routing
 - Tested in browser - working correctly
+
+## Day 16 - Dashboard Page
+
+- Built Dashboard.js with:
+  - Navbar with SpendSmart logo, Dashboard, Add Expense links and Logout
+  - Total Income card (green gradient)
+  - Total Expense card (red gradient)
+  - Remaining Balance card (purple gradient) - calculated automatically
+  - Recent Expenses table with:
+    - Description, Category, Date, Amount columns
+    - Color coded category badges (Food, Travel, Bills)
+  - Add Expense button linking to Add Expense page
+  - Logout button navigating back to Login page
+- Connected Dashboard page to App.js routing
+- Tested in browser - working correctly with dummy data
