@@ -272,3 +272,16 @@ CREATE TABLE expenses (
   - /dashboard (Dashboard)
   - /add-expense (Add Expense)
 - Verified routing works correctly
+
+## Day 14 - Login Page
+
+- Created pages folder inside src
+- Built Login.js with:
+  - Email input field
+  - Password input field
+  - Form validation (shows error if fields are empty)
+  - Login button with gradient styling
+  - Link to Register page
+  - Navigates to Dashboard on successful login
+- Connected Login page to App.js routing
+- Tested in browser - working correctly
