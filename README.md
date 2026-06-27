@@ -369,3 +369,23 @@ All 5 pages built and tested:
 3. Dashboard Page
 4. Add Expense Page
 5. Expenses List Page (with filters)
+
+## Day 20 - Spring Boot Project Setup
+
+- Created Spring Boot project using Spring Initializr
+  - Group: com.spendsmart
+  - Artifact: backend
+  - Spring Boot version: 4.1.0
+  - Java: 17
+- Added dependencies:
+  - Spring Web
+  - Spring Data JPA
+  - MySQL Driver
+  - Spring Security
+  - Validation
+  - Lombok
+- Installed IntelliJ IDEA Community Edition
+- Opened backend project in IntelliJ
+- Configured Project JDK (17)
+- Verified project compiles successfully
+- Confirmed Spring Boot requires database configuration (expected - will configure tomorrow)
