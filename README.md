@@ -405,3 +405,21 @@ All 5 pages built and tested:
 - Verified connection by visiting localhost:8080
   - Spring Security default login page appeared
   - Confirms server is running and connected to database correctly
+
+  ## Day 22 - Entity Classes and JPA Repositories
+
+### Entity Classes Created:
+- User.java - maps to users table (id, name, email, password)
+- Category.java - maps to categories table (id, name)
+- Expense.java - maps to expenses table (id, amount, description, date, user_id, category_id)
+
+### Repositories Created:
+- UserRepository.java - findByEmail() method
+- CategoryRepository.java - basic CRUD operations
+- ExpenseRepository.java - findByUserId() method
+
+### Issues Fixed:
+- Enabled Lombok annotation processing
+- Fixed file naming (lowercase to uppercase)
+- Application running successfully on port 8080
+- Verified at localhost:8080 - Spring Security login page shows correctly
