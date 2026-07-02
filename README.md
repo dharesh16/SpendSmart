@@ -423,3 +423,29 @@ All 5 pages built and tested:
 - Fixed file naming (lowercase to uppercase)
 - Application running successfully on port 8080
 - Verified at localhost:8080 - Spring Security login page shows correctly
+
+## Day 23 - REST APIs
+
+### Packages Created:
+- dto - Data Transfer Objects
+- service - Business logic
+- controller - REST API endpoints
+- config - Security configuration
+
+### Files Created:
+- ExpenseRequest.java - DTO for adding expenses
+- ExpenseService.java - Business logic for expenses
+- ExpenseController.java - REST APIs for expenses
+- CategoryController.java - REST API for categories
+- SecurityConfig.java - Temporarily disabled Spring Security
+
+### APIs Working:
+- GET /api/categories - Returns all 4 categories from database
+- GET /api/expenses - Returns all expenses
+- GET /api/expenses/user/{userId} - Returns expenses by user
+- POST /api/expenses - Adds new expense
+- DELETE /api/expenses/{id} - Deletes expense
+
+### Verified:
+- localhost:8080/api/categories returns Food, Travel, Bills, Others
+- localhost:8080/api/expenses returns empty array (no expenses yet)
